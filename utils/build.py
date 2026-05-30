@@ -2,7 +2,7 @@
 build.py — 数模论文第一阶段构建脚本
 角色：合并章节、生成附录、产出 text/frozen/ 下的可审阅 Markdown
 
-用法：python utils/build.py（或 python scripts/build.py，取决于实际位置）
+用法：python utils/build.py
 需在项目根目录下执行。
 """
 

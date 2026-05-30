@@ -28,13 +28,14 @@
 4. 安装项目依赖：
 
 ```bash
-pip install matplotlib PyPDF2 reportlab pdfrw
+pip install uv
+uv sync
 ```
 
 5. 克隆本仓库到本地，并使用trae打开该目录：
 
 ```bash
-git clone https://github.com/emumus/emu_mm_workflow.git
+git clone https://github.com/emumus/mathmodel-workflow.git .
 ```
 
 ## 工作区目录结构
