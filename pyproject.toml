@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "markitdown>=0.1.6",
+    "markitdown[docx]>=0.1.6",
     "matplotlib>=3.10.9",
     "pdfrw>=0.4",
     "pypdf2>=3.0.1",

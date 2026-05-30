@@ -93,6 +93,8 @@ def _build_file_table() -> list[str]:
         if qname.startswith("_") or qname in ["raw", "deprecated", "__pycache__"]:
             continue
         for f in sorted(qdir.glob("*")):
+            if not f.is_file():
+                continue
             file_name = f.name
             ext_label = EXTYPE.get(f.suffix, "其他")
             table.append(f"| {file_name} | {ext_label} | {_get_desc(file_name)} |")
